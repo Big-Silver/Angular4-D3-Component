@@ -1,0 +1,20 @@
+<div class="chart-dash pt-4 pb-4">
+    <div class="row text-center">
+        <div class="col-sm-6 p-4">
+            <h3>Bar Component</h3>
+            <bar-chart [data]="barData" [colors]="barColors" [xAxis]="true" [yAxis]="true" [ticks]="5" [tickFormat]="'%'" [yAxisMax]="0" [xGrid]="false" [yGrid]="false" [xGridTicks]="5" [yGridTicks]="5"></bar-chart>
+        </div>
+        <div class="col-sm-6 p-4">
+            <h3>Pie Component</h3>
+            <pie-chart [data]="pieData" [colors]="pieColors"></pie-chart>
+        </div>
+        <div class="col-sm-12 p-4">
+            <h3>Line Component</h3>
+            <line-chart [data]="lineData" [colors]="lineColors" [strokeWidth]="1.5" [xAxis]="true" [yAxis]="true" [xGrid]="false" [yGrid]="false" [xGridTicks]="10" [yGridTicks]="10"></line-chart>
+        </div>
+        <div class="col-sm-12 p-4">
+            <h3>Nested Pie Component</h3>
+            <nested-pie-chart [data]="nestedPieData" [colors]="pieColors"></nested-pie-chart>
+        </div>
+    </div>    
+</div>
