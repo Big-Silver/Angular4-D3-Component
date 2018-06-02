@@ -145,23 +145,23 @@ export const NestedPieData =  [
     },
     "subData": [{
         "nodeData": {
-            "age": "65-75",
+            "age": "65-80",
             "population": 60
         },
         "subData": [{
             "nodeData": {
-                "age": "65-75",
+                "age": "65-80",
                 "population": 60
             }
         }]
     }, {
         "nodeData": {
-            "age": ">75",
+            "age": ">80",
             "population": 40
         },
         "subData": [{
             "nodeData": {
-                "age": ">75",
+                "age": ">80",
                 "population": 40
             }
         }]
